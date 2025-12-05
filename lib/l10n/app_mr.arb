@@ -1,0 +1,335 @@
+{
+  "@@locale": "mr",
+  "appTitle": "वॉटर टँक व्यवस्थापन",
+  "loginTitle": "वॉटर टँक व्यवस्थापन",
+  "usernameLabel": "वापरकर्तानाव",
+  "passwordLabel": "पासवर्ड",
+  "rememberMe": "मला लक्षात ठेवा",
+  "loginButton": "लॉगिन",
+  "usernameRequired": "कृपया वापरकर्तानाव प्रविष्ट करा",
+  "passwordRequired": "कृपया पासवर्ड प्रविष्ट करा",
+  "twoFactorPrompt": "कृपया तुमचा 2FA टोकन प्रविष्ट करा",
+  "settingsTitle": "सेटिंग्ज",
+  "themeSectionTitle": "थीम",
+  "themeSectionDescription": "अॅपसाठी थीम निवडा",
+  "themeLight": "लाइट मोड",
+  "themeDark": "डार्क मोड",
+  "languageSectionTitle": "भाषा",
+  "languageSectionDescription": "अॅपसाठी भाषा निवडा",
+  "languageEnglish": "इंग्रजी",
+  "languageHindi": "हिंदी",
+  "languageMarathi": "मराठी",
+  "drawerDashboard": "डॅशबोर्ड",
+  "drawerSocieties": "सोसायटी",
+  "drawerTanks": "टाक्या",
+  "drawerCleaningRecords": "स्वच्छता रेकॉर्ड",
+  "drawerAnalytics": "विश्लेषण",
+  "drawerSettings": "सेटिंग्ज",
+  "drawerLogout": "लॉगआउट",
+  "commonRetry": "पुन्हा प्रयत्न करा",
+  "commonCancel": "रद्द करा",
+  "commonDelete": "हटवा",
+  "commonExit": "बाहेर पडा",
+  "commonAll": "सर्व",
+  "appExitTitle": "अॅप बंद करा",
+  "appExitMessage": "तुम्हाला खरोखर अॅप्लिकेशनमधून बाहेर पडायचे आहे का?",
+  "commonNone": "काहीही नाही",
+  "commonUnknown": "अज्ञात",
+  "commonRequired": "आवश्यक",
+  "commonPositiveNumber": "मूल्य सकारात्मक असणे आवश्यक आहे",
+  "commonAmountLabel": "रक्कम: ₹{amount}",
+  "@commonAmountLabel": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDueLabel": "प्रलंबित: ₹{amount}",
+  "@commonDueLabel": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentStatusPaid": "देय भरले",
+  "paymentStatusUnpaid": "देय बाकी",
+  "paymentStatusPartial": "प्रलंबित",
+  "paymentModeCash": "रोख",
+  "paymentModeOnline": "ऑनलाइन",
+  "paymentModeCheque": "चेक",
+  "paymentModeUpi": "यूपीआय",
+  "paymentModeCard": "कार्ड",
+  "dashboardTitle": "डॅशबोर्ड",
+  "dashboardLoadError": "डॅशबोर्ड लोड करण्यात अयशस्वी",
+  "dashboardTotalSocieties": "एकूण सोसायटी",
+  "dashboardTotalTanks": "एकूण टाक्या",
+  "dashboardTotalCleanings": "एकूण साफसफाई",
+  "dashboardRecentCleanings": "अलीकडील साफसफाई",
+  "dashboardPaymentStats": "भुगतान आकडेवारी",
+  "dashboardRevenueSummary": "महसूल सारांश",
+  "dashboardTotalRevenue": "एकूण महसूल",
+  "dashboardTotalCollected": "एकूण वसुली",
+  "dashboardTotalDue": "एकूण प्रलंबित",
+  "dashboardQuickActions": "जलद कृती",
+  "dashboardCreateSociety": "सोसायटी तयार करा",
+  "dashboardCreateTank": "टाकी तयार करा",
+  "dashboardCreateCleaning": "स्वच्छता रेकॉर्ड तयार करा",
+  "dashboardUpcoming": "आगामी",
+  "dashboardOverdue": "बहुदा",
+  "dashboardRecordsCount": "{count} नोंदी",
+  "@dashboardRecordsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cleaningRecordsTitle": "स्वच्छता रेकॉर्ड",
+  "cleaningRecordsLoadError": "रेकॉर्ड लोड करण्यात अयशस्वी",
+  "cleaningRecordsEmpty": "कोणतेही रेकॉर्ड आढळले नाहीत",
+  "filterSocietyLabel": "सोसायटी",
+  "filterTankLabel": "टाकी",
+  "filterPaymentStatusLabel": "भुगतान स्थिती",
+  "filterStartDate": "सुरुवातीची तारीख",
+  "filterEndDate": "शेवटची तारीख",
+  "filterDaysAhead": "दिवस पुढे:",
+  "filterBySocietyLabel": "सोसायटीने फिल्टर करा",
+  "filterAllSocieties": "सर्व सोसायटी",
+  "buttonUpcoming": "आगामी",
+  "buttonOverdue": "बहुदा",
+  "cleaningRecordsDateLabel": "तारीख: {date}",
+  "@cleaningRecordsDateLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCleaningRecordTitle": "स्वच्छता रेकॉर्ड हटवा",
+  "deleteCleaningRecordMessage": "आपण खरंच हा रेकॉर्ड हटवू इच्छिता?",
+  "cleaningRecordDeleted": "रेकॉर्ड यशस्वीरित्या हटवला गेला",
+  "cleaningRecordDeleteFailed": "रेकॉर्ड हटवण्यात अयशस्वी",
+  "cleaningRecordCreateTitle": "स्वच्छता रेकॉर्ड तयार करा",
+  "cleaningRecordEditTitle": "स्वच्छता रेकॉर्ड संपादित करा",
+  "cleaningRecordTankLabel": "टाकी *",
+  "cleaningRecordDateCleanedLabel": "स्वच्छतेची तारीख *",
+  "cleaningRecordNextExpectedLabel": "पुढील अपेक्षित तारीख *",
+  "cleaningRecordPaymentStatusLabel": "भुगतान स्थिती *",
+  "cleaningRecordPaymentModeLabel": "भुगतान पद्धत",
+  "cleaningRecordTransactionIdLabel": "व्यवहार आयडी",
+  "cleaningRecordChequeNumberLabel": "चेक क्रमांक *",
+  "cleaningRecordChequeBankLabel": "बँकेचे नाव *",
+  "cleaningRecordChequeDateLabel": "चेक तारीख *",
+  "cleaningRecordTotalAmountLabel": "एकूण रक्कम *",
+  "cleaningRecordAmountDueLabel": "प्रलंबित रक्कम *",
+  "validationSelectTank": "कृपया टाकी निवडा",
+  "validationSelectDate": "कृपया तारीख निवडा",
+  "validationAmountExceeds": "एकूण रकमेपेक्षा जास्त असू शकत नाही",
+  "validationInvalidEmail": "अवैध ईमेल",
+  "validationInvalidPhone": "मोबाइल नंबर नक्की 10 अंकांचा असावा",
+  "cleaningRecordUpdateSuccess": "रेकॉर्ड यशस्वीरित्या अद्यतनित झाला",
+  "cleaningRecordCreateSuccess": "रेकॉर्ड यशस्वीरित्या तयार झाला",
+  "cleaningRecordUpdateFailed": "रेकॉर्ड अद्यतनित करण्यात अयशस्वी",
+  "cleaningRecordCreateFailed": "रेकॉर्ड तयार करण्यात अयशस्वी",
+  "buttonUpdateRecord": "रेकॉर्ड अद्यतनित करा",
+  "buttonCreateRecord": "रेकॉर्ड तयार करा",
+  "upcomingCleaningsTitle": "आगामी स्वच्छता",
+  "upcomingNoRecords": "कोणतीही आगामी स्वच्छता नाही",
+  "upcomingExpectedLabel": "अपेक्षित: {date}",
+  "@upcomingExpectedLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "overdueCleaningsTitle": "अतिदेय स्वच्छता",
+  "overdueNoRecords": "कोणतीही अतिदेय स्वच्छता नाही",
+  "overdueDaysOverdue": "{days} दिवस अतिदेय",
+  "@overdueDaysOverdue": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "overdueCreateRecord": "रेकॉर्ड तयार करा",
+  "cleaningRecordDetailsTitle": "स्वच्छता रेकॉर्ड तपशील",
+  "cleaningRecordNotFound": "रेकॉर्ड सापडला नाही",
+  "infoDateCleaned": "स्वच्छतेची तारीख",
+  "infoNextExpectedDate": "पुढील अपेक्षित तारीख",
+  "infoPaymentStatus": "भुगतान स्थिती",
+  "infoPaymentMode": "भुगतान पद्धत",
+  "infoTotalAmount": "एकूण रक्कम",
+  "infoAmountDue": "प्रलंबित रक्कम",
+  "buttonEditRecord": "रेकॉर्ड संपादित करा",
+  "buttonDeleteRecord": "हटवा",
+  "societiesTitle": "सोसायटी",
+  "societiesLoadError": "सोसायटी लोड करण्यात अयशस्वी",
+  "societiesEmpty": "कोणतीही सोसायटी आढळली नाही",
+  "societiesSearchLabel": "शोधा",
+  "societiesStateLabel": "राज्य",
+  "societiesCityLabel": "शहर",
+  "societiesAllStates": "सर्व राज्ये",
+  "societiesAllCities": "सर्व शहरे",
+  "societiesDeleteTitle": "सोसायटी हटवा",
+  "societiesDeleteMessage": "आपण खरंच ही सोसायटी हटवू इच्छिता? त्यामुळे संबंधित सर्व टाक्या आणि स्वच्छता रेकॉर्ड हटवले जातील.",
+  "societyDeletedSuccess": "सोसायटी यशस्वीरित्या हटवली",
+  "societyDeleteFailed": "सोसायटी हटवण्यात अयशस्वी",
+  "paginationLabel": "पृष्ठ {current} / {total}",
+  "@paginationLabel": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "tanksTitle": "टाक्या",
+  "tanksLoadError": "टाक्या लोड करण्यात अयशस्वी",
+  "tanksEmpty": "कोणतीही टाकी आढळली नाही",
+  "filterBySociety": "सोसायटीने फिल्टर करा",
+  "tanksDeleteTitle": "टाकी हटवा",
+  "tanksDeleteMessage": "आपण खरंच ही टाकी हटवू इच्छिता? त्यामुळे संबंधित सर्व स्वच्छता रेकॉर्ड हटवले जातील.",
+  "tankDeletedSuccess": "टाकी यशस्वीरित्या हटवली",
+  "tankDeleteFailed": "टाकी हटवण्यात अयशस्वी",
+  "createSocietyTitle": "सोसायटी तयार करा",
+  "editSocietyTitle": "सोसायटी संपादित करा",
+  "societyNameLabel": "सोसायटीचे नाव *",
+  "societyStateLabel": "राज्य *",
+  "societyCityLabel": "शहर *",
+  "societyPincodeLabel": "पिनकोड *",
+  "societyAddressLabel": "संपूर्ण पत्ता *",
+  "chairmanDetails": "चेअरमन तपशील",
+  "chairmanNameLabel": "चेअरमनचे नाव *",
+  "chairmanPhoneLabel": "चेअरमन फोन *",
+  "chairmanEmailLabel": "चेअरमन ईमेल (ऐच्छिक)",
+  "secretaryDetails": "सचिव तपशील",
+  "secretaryNameLabel": "सचिवाचे नाव *",
+  "secretaryPhoneLabel": "सचिव फोन *",
+  "secretaryEmailLabel": "सचिव ईमेल (ऐच्छिक)",
+  "societyCreateSuccess": "सोसायटी यशस्वीरित्या तयार झाली",
+  "societyUpdateSuccess": "सोसायटी यशस्वीरित्या अद्यतनित झाली",
+  "societyCreateFailed": "सोसायटी तयार करण्यात अयशस्वी",
+  "societyUpdateFailed": "सोसायटी अद्यतनित करण्यात अयशस्वी",
+  "buttonCreateSociety": "सोसायटी तयार करा",
+  "buttonUpdateSociety": "सोसायटी अद्यतनित करा",
+  "createTankTitle": "टाकी तयार करा",
+  "editTankTitle": "टाकी संपादित करा",
+  "tankSocietyLabel": "सोसायटी *",
+  "tankLocationLabel": "स्थान *",
+  "tankFrequencyLabel": "स्वच्छता वारंवारता (दिवस) *",
+  "tankFrequencyValue": "वारंवारता: {days} दिवस",
+  "@tankFrequencyValue": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "validationSelectSociety": "कृपया सोसायटी निवडा",
+  "tankCreateSuccess": "टाकी यशस्वीरित्या तयार झाली",
+  "tankUpdateSuccess": "टाकी यशस्वीरित्या अद्यतनित झाली",
+  "tankCreateFailed": "टाकी तयार करण्यात अयशस्वी",
+  "tankUpdateFailed": "टाकी अद्यतनित करण्यात अयशस्वी",
+  "buttonCreateTank": "टाकी तयार करा",
+  "buttonUpdateTank": "टाकी अद्यतनित करा",
+  "analyticsTitle": "विश्लेषण",
+  "analyticsTabRevenue": "उत्पन्न",
+  "analyticsTabSocieties": "सोसायटी",
+  "analyticsTabFrequency": "वारंवारता",
+  "analyticsTabPaymentModes": "देयक पद्धती",
+  "analyticsTabLocations": "ठिकाणे",
+  "analyticsPeriodLabel": "कालावधी",
+  "analyticsYearLabel": "वर्ष",
+  "analyticsPeriodDaily": "दैनिक",
+  "analyticsPeriodMonthly": "मासिक",
+  "analyticsPeriodYearly": "वार्षिक",
+  "analyticsNoRevenueData": "उपलब्ध उत्पन्न डेटा नाही",
+  "analyticsNoData": "उपलब्ध डेटा नाही",
+  "analyticsRevenueDetailsTitle": "उत्पन्न तपशील",
+  "analyticsTransactionsCount": "{count} व्यवहार",
+  "@analyticsTransactionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "analyticsFrequencyDays": "{count} दिवस",
+  "@analyticsFrequencyDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "analyticsTankCount": "{count} टाक्या",
+  "@analyticsTankCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "analyticsGroupByLabel": "गटानुसार",
+  "analyticsGroupByState": "राज्य",
+  "analyticsGroupByCity": "शहर",
+  "analyticsSocietyCount": "{count} सोसायटी",
+  "@analyticsSocietyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "societyDetailsTitle": "सोसायटी तपशील",
+  "societyNotFound": "सोसायटी सापडली नाही",
+  "tanksSectionTitle": "टाक्या",
+  "addTankButton": "टाकी जोडा",
+  "noTanksFound": "कोणतीही टाकी आढळली नाही",
+  "recentCleaningsSection": "अलीकडील स्वच्छता",
+  "noCleaningRecordsFound": "कोणतेही स्वच्छता रेकॉर्ड आढळले नाहीत",
+  "tankDetailsTitle": "टाकी तपशील",
+  "tankNotFound": "टाकी सापडली नाही",
+  "viewSocietyButton": "सोसायटी पाहा",
+  "cleaningHistorySection": "स्वच्छता इतिहास",
+  "addCleaningRecordButton": "रेकॉर्ड जोडा",
+  "cleaningRecordLoadError": "रेकॉर्ड लोड करण्यात अयशस्वी",
+  "cleaningRecordDetailsNotFound": "रेकॉर्ड सापडला नाही",
+  "receiptTitle": "पावती",
+  "receiptNumber": "पावती क्रमांक",
+  "receiptDate": "तारीख",
+  "receiptCustomerInfo": "ग्राहक माहिती",
+  "receiptSocietyName": "सोसायटीचे नाव",
+  "receiptAddress": "पत्ता",
+  "receiptCity": "शहर",
+  "receiptContactPerson": "संपर्क व्यक्ती",
+  "receiptPhone": "फोन",
+  "receiptServiceDetails": "सेवा तपशील",
+  "receiptTankLocation": "टाकी स्थान",
+  "receiptCleaningDate": "स्वच्छतेची तारीख",
+  "receiptNextCleaningDate": "पुढील स्वच्छतेची तारीख",
+  "receiptPaymentInfo": "भुगतान माहिती",
+  "receiptPaymentStatus": "भुगतान स्थिती",
+  "receiptPaymentMode": "भुगतान पद्धत",
+  "receiptTotalAmount": "एकूण रक्कम",
+  "receiptAmountDue": "प्रलंबित रक्कम",
+  "receiptAmountPaid": "दिलेली रक्कम",
+  "receiptAmountReceived": "प्राप्त रक्कम",
+  "receiptThankYou": "आपल्या व्यवसायासाठी धन्यवाद!",
+  "receiptFooter": "ही संगणक-निर्मित पावती आहे. स्वाक्षरी आवश्यक नाही.",
+  "buttonDownloadReceipt": "पावती डाउनलोड करा",
+  "receiptGenerating": "पावती तयार केली जात आहे...",
+  "receiptGenerated": "पावती यशस्वीरित्या तयार झाली",
+  "receiptGenerationFailed": "पावती तयार करण्यात अयशस्वी",
+  "buttonExportAnalytics": "एक्सेलमध्ये विश्लेषण निर्यात करा",
+  "analyticsExcelGenerating": "एक्सेल फाइल तयार केली जात आहे...",
+  "analyticsExcelGenerated": "एक्सेल फाइल यशस्वीरित्या तयार झाली",
+  "analyticsExcelGenerationFailed": "एक्सेल फाइल तयार करण्यात अयशस्वी"
+}
+

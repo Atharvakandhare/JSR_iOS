@@ -1,0 +1,335 @@
+{
+  "@@locale": "en",
+  "appTitle": "Water Tank Management",
+  "loginTitle": "Water Tank Management",
+  "usernameLabel": "Username",
+  "passwordLabel": "Password",
+  "rememberMe": "Remember me",
+  "loginButton": "Login",
+  "usernameRequired": "Please enter username",
+  "passwordRequired": "Please enter password",
+  "twoFactorPrompt": "Please enter your 2FA token",
+  "settingsTitle": "Settings",
+  "themeSectionTitle": "Theme",
+  "themeSectionDescription": "Select the theme for the app",
+  "themeLight": "Light Mode",
+  "themeDark": "Dark Mode",
+  "languageSectionTitle": "Language",
+  "languageSectionDescription": "Select the language for the app",
+  "languageEnglish": "English",
+  "languageHindi": "Hindi",
+  "languageMarathi": "Marathi",
+  "drawerDashboard": "Dashboard",
+  "drawerSocieties": "Societies",
+  "drawerTanks": "Tanks",
+  "drawerCleaningRecords": "Cleaning Records",
+  "drawerAnalytics": "Analytics",
+  "drawerSettings": "Settings",
+   "drawerLogout": "Logout",
+  "commonRetry": "Retry",
+  "commonCancel": "Cancel",
+  "commonDelete": "Delete",
+  "commonExit": "Exit",
+  "commonAll": "All",
+  "commonNone": "None",
+  "commonUnknown": "Unknown",
+  "commonRequired": "Required",
+  "appExitTitle": "Exit App",
+  "appExitMessage": "Are you sure you want to exit the application?",
+  "commonPositiveNumber": "Must be a positive number",
+  "commonAmountLabel": "Amount: ₹{amount}",
+  "@commonAmountLabel": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDueLabel": "Pending: ₹{amount}",
+  "@commonDueLabel": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentStatusPaid": "Paid",
+  "paymentStatusUnpaid": "Unpaid",
+  "paymentStatusPartial": "Pending",
+  "paymentModeCash": "Cash",
+  "paymentModeOnline": "Online",
+  "paymentModeCheque": "Cheque",
+  "paymentModeUpi": "UPI",
+  "paymentModeCard": "Card",
+  "dashboardTitle": "Dashboard",
+  "dashboardLoadError": "Failed to load dashboard",
+  "dashboardTotalSocieties": "Total Societies",
+  "dashboardTotalTanks": "Total Tanks",
+  "dashboardTotalCleanings": "Total Cleanings",
+  "dashboardRecentCleanings": "Recent Cleanings",
+  "dashboardPaymentStats": "Payment Statistics",
+  "dashboardRevenueSummary": "Revenue Summary",
+  "dashboardTotalRevenue": "Total Revenue",
+  "dashboardTotalCollected": "Total Collected",
+  "dashboardTotalDue": "Total Pending",
+  "dashboardQuickActions": "Quick Actions",
+  "dashboardCreateSociety": "Create Society",
+  "dashboardCreateTank": "Create Tank",
+  "dashboardCreateCleaning": "Create Cleaning",
+  "dashboardUpcoming": "Upcoming",
+  "dashboardOverdue": "Overdue",
+  "dashboardRecordsCount": "{count} records",
+  "@dashboardRecordsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cleaningRecordsTitle": "Cleaning Records",
+  "cleaningRecordsLoadError": "Failed to load records",
+  "cleaningRecordsEmpty": "No records found",
+  "filterSocietyLabel": "Society",
+  "filterTankLabel": "Tank",
+  "filterPaymentStatusLabel": "Payment Status",
+  "filterStartDate": "Start Date",
+  "filterEndDate": "End Date",
+  "filterDaysAhead": "Days ahead:",
+  "filterBySocietyLabel": "Filter by Society",
+  "buttonUpcoming": "Upcoming",
+  "buttonOverdue": "Overdue",
+  "cleaningRecordsDateLabel": "Date: {date}",
+  "@cleaningRecordsDateLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCleaningRecordTitle": "Delete Cleaning Record",
+  "deleteCleaningRecordMessage": "Are you sure you want to delete this record?",
+  "cleaningRecordDeleted": "Record deleted successfully",
+  "cleaningRecordDeleteFailed": "Failed to delete record",
+  "cleaningRecordCreateTitle": "Create Cleaning Record",
+  "cleaningRecordEditTitle": "Edit Cleaning Record",
+  "cleaningRecordTankLabel": "Tank *",
+  "cleaningRecordDateCleanedLabel": "Date Cleaned *",
+  "cleaningRecordNextExpectedLabel": "Next Expected Date *",
+  "cleaningRecordPaymentStatusLabel": "Payment Status *",
+  "cleaningRecordPaymentModeLabel": "Payment Mode",
+  "cleaningRecordTransactionIdLabel": "Transaction ID",
+  "cleaningRecordChequeNumberLabel": "Cheque Number *",
+  "cleaningRecordChequeBankLabel": "Bank Name *",
+  "cleaningRecordChequeDateLabel": "Cheque Date *",
+  "cleaningRecordTotalAmountLabel": "Total Amount *",
+  "cleaningRecordAmountDueLabel": "Amount Pending *",
+  "validationSelectTank": "Please select a tank",
+  "validationSelectDate": "Please select a date",
+  "validationAmountExceeds": "Cannot exceed total amount",
+  "validationInvalidEmail": "Invalid email",
+  "validationInvalidPhone": "Mobile number must be exactly 10 digits",
+  "cleaningRecordUpdateSuccess": "Record updated successfully",
+  "cleaningRecordCreateSuccess": "Record created successfully",
+  "cleaningRecordUpdateFailed": "Failed to update record",
+  "cleaningRecordCreateFailed": "Failed to create record",
+  "buttonUpdateRecord": "Update Record",
+  "buttonCreateRecord": "Create Record",
+  "analyticsTitle": "Analytics",
+  "analyticsTabRevenue": "Revenue",
+  "analyticsTabSocieties": "Societies",
+  "analyticsTabFrequency": "Frequency",
+  "analyticsTabPaymentModes": "Payment Modes",
+  "analyticsTabLocations": "Locations",
+  "analyticsPeriodLabel": "Period",
+  "analyticsYearLabel": "Year",
+  "analyticsPeriodDaily": "Daily",
+  "analyticsPeriodMonthly": "Monthly",
+  "analyticsPeriodYearly": "Yearly",
+  "analyticsNoRevenueData": "No revenue data available",
+  "analyticsNoData": "No data available",
+  "analyticsRevenueDetailsTitle": "Revenue Details",
+  "analyticsTransactionsCount": "{count} transactions",
+  "@analyticsTransactionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "analyticsFrequencyDays": "{count} days",
+  "@analyticsFrequencyDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "analyticsTankCount": "{count} tanks",
+  "@analyticsTankCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "analyticsGroupByLabel": "Group By",
+  "analyticsGroupByState": "State",
+  "analyticsGroupByCity": "City",
+  "analyticsSocietyCount": "{count} societies",
+  "@analyticsSocietyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "upcomingCleaningsTitle": "Upcoming Cleanings",
+  "upcomingNoRecords": "No upcoming cleanings",
+  "upcomingExpectedLabel": "Expected: {date}",
+  "@upcomingExpectedLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "overdueCleaningsTitle": "Overdue Cleanings",
+  "overdueNoRecords": "No overdue cleanings",
+  "overdueDaysOverdue": "{days} days overdue",
+  "@overdueDaysOverdue": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "overdueCreateRecord": "Create Record",
+  "cleaningRecordDetailsTitle": "Cleaning Record Details",
+  "cleaningRecordNotFound": "Record not found",
+  "infoDateCleaned": "Date Cleaned",
+  "infoNextExpectedDate": "Next Expected Date",
+  "infoPaymentStatus": "Payment Status",
+  "infoPaymentMode": "Payment Mode",
+  "infoTotalAmount": "Total Amount",
+  "infoAmountDue": "Amount Pending",
+  "buttonEditRecord": "Edit Record",
+  "buttonDeleteRecord": "Delete",
+  "societiesTitle": "Societies",
+  "societiesLoadError": "Failed to load societies",
+  "societiesEmpty": "No societies found",
+  "societiesSearchLabel": "Search",
+  "societiesStateLabel": "State",
+  "societiesCityLabel": "City",
+  "societiesAllStates": "All States",
+  "societiesAllCities": "All Cities",
+  "societiesDeleteTitle": "Delete Society",
+  "societiesDeleteMessage": "Are you sure you want to delete this society? This will also delete all associated tanks and cleaning records.",
+  "societyDeletedSuccess": "Society deleted successfully",
+  "societyDeleteFailed": "Failed to delete society",
+  "paginationLabel": "Page {current} of {total}",
+  "@paginationLabel": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "tanksTitle": "Tanks",
+  "tanksLoadError": "Failed to load tanks",
+  "tanksEmpty": "No tanks found",
+  "filterBySociety": "Filter by Society",
+  "filterAllSocieties": "All Societies",
+  "tanksDeleteTitle": "Delete Tank",
+  "tanksDeleteMessage": "Are you sure you want to delete this tank? This will also delete all associated cleaning records.",
+  "tankDeletedSuccess": "Tank deleted successfully",
+  "tankDeleteFailed": "Failed to delete tank",
+  "createSocietyTitle": "Create Society",
+  "editSocietyTitle": "Edit Society",
+  "societyNameLabel": "Society Name *",
+  "societyStateLabel": "State *",
+  "societyCityLabel": "City *",
+  "societyPincodeLabel": "Pincode *",
+  "societyAddressLabel": "Full Address *",
+  "chairmanDetails": "Chairman Details",
+  "chairmanNameLabel": "Chairman Name *",
+  "chairmanPhoneLabel": "Chairman Phone *",
+  "chairmanEmailLabel": "Chairman Email (optional)",
+  "secretaryDetails": "Secretary Details",
+  "secretaryNameLabel": "Secretary Name *",
+  "secretaryPhoneLabel": "Secretary Phone *",
+  "secretaryEmailLabel": "Secretary Email (optional)",
+  "societyCreateSuccess": "Society created successfully",
+  "societyUpdateSuccess": "Society updated successfully",
+  "societyCreateFailed": "Failed to create society",
+  "societyUpdateFailed": "Failed to update society",
+  "buttonCreateSociety": "Create Society",
+  "buttonUpdateSociety": "Update Society",
+  "createTankTitle": "Create Tank",
+  "editTankTitle": "Edit Tank",
+  "tankSocietyLabel": "Society *",
+  "tankLocationLabel": "Location *",
+  "tankFrequencyLabel": "Cleaning Frequency (days) *",
+  "tankFrequencyValue": "Frequency: {days} days",
+  "@tankFrequencyValue": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "validationSelectSociety": "Please select a society",
+  "tankCreateSuccess": "Tank created successfully",
+  "tankUpdateSuccess": "Tank updated successfully",
+  "tankCreateFailed": "Failed to create tank",
+  "tankUpdateFailed": "Failed to update tank",
+  "buttonCreateTank": "Create Tank",
+  "buttonUpdateTank": "Update Tank",
+  "societyDetailsTitle": "Society Details",
+  "societyNotFound": "Society not found",
+  "tanksSectionTitle": "Tanks",
+  "addTankButton": "Add Tank",
+  "noTanksFound": "No tanks found",
+  "recentCleaningsSection": "Recent Cleanings",
+  "noCleaningRecordsFound": "No cleaning records found",
+  "tankDetailsTitle": "Tank Details",
+  "tankNotFound": "Tank not found",
+  "viewSocietyButton": "View Society",
+  "cleaningHistorySection": "Cleaning History",
+  "addCleaningRecordButton": "Add Record",
+  "cleaningRecordLoadError": "Failed to load record",
+  "cleaningRecordDetailsNotFound": "Record not found",
+  "receiptTitle": "RECEIPT",
+  "receiptNumber": "Receipt Number",
+  "receiptDate": "Date",
+  "receiptCustomerInfo": "Customer Information",
+  "receiptSocietyName": "Society Name",
+  "receiptAddress": "Address",
+  "receiptCity": "City",
+  "receiptContactPerson": "Contact Person",
+  "receiptPhone": "Phone",
+  "receiptServiceDetails": "Service Details",
+  "receiptTankLocation": "Tank Location",
+  "receiptCleaningDate": "Cleaning Date",
+  "receiptNextCleaningDate": "Next Cleaning Date",
+  "receiptPaymentInfo": "Payment Information",
+  "receiptPaymentStatus": "Payment Status",
+  "receiptPaymentMode": "Payment Mode",
+  "receiptTotalAmount": "Total Amount",
+  "receiptAmountDue": "Amount Pending",
+  "receiptAmountPaid": "Amount Paid",
+  "receiptAmountReceived": "Received Amount",
+  "receiptThankYou": "Thank you for your business!",
+  "receiptFooter": "This is a computer-generated receipt. No signature required.",
+  "buttonDownloadReceipt": "Download Receipt",
+  "receiptGenerating": "Generating receipt...",
+  "receiptGenerated": "Receipt generated successfully",
+  "receiptGenerationFailed": "Failed to generate receipt",
+  "buttonExportAnalytics": "Export Analytics to Excel",
+  "analyticsExcelGenerating": "Generating Excel file...",
+  "analyticsExcelGenerated": "Excel file generated successfully",
+  "analyticsExcelGenerationFailed": "Failed to generate Excel file"
+}
+

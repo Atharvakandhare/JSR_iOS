@@ -1,0 +1,51 @@
+name: Build iOS App
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.35.4'
+        channel: 'stable'
+        
+    - name: Get dependencies
+      run: |
+        cd JSR_frontend/jsr_app
+        flutter pub get
+        
+    - name: Install CocoaPods dependencies
+      run: |
+        cd JSR_frontend/jsr_app/ios
+        pod install
+        cd ../..
+        
+    - name: Build iOS app
+      run: |
+        cd JSR_frontend/jsr_app
+        flutter build ios --release --no-codesign
+        
+    - name: Build IPA
+      run: |
+        cd JSR_frontend/jsr_app
+        flutter build ipa --release
+        
+    - name: Upload IPA artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-app
+        path: JSR_frontend/jsr_app/build/ios/ipa/*.ipa
+        retention-days: 30
+
