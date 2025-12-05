@@ -23,29 +23,26 @@ jobs:
         
     - name: Get dependencies
       run: |
-        cd JSR_frontend/jsr_app
         flutter pub get
         
     - name: Install CocoaPods dependencies
       run: |
-        cd JSR_frontend/jsr_app/ios
+        cd ios
         pod install
-        cd ../..
+        cd ..
         
     - name: Build iOS app
       run: |
-        cd JSR_frontend/jsr_app
         flutter build ios --release --no-codesign
         
     - name: Build IPA
       run: |
-        cd JSR_frontend/jsr_app
         flutter build ipa --release
         
     - name: Upload IPA artifact
       uses: actions/upload-artifact@v4
       with:
         name: ios-app
-        path: JSR_frontend/jsr_app/build/ios/ipa/*.ipa
+        path: build/ios/ipa/*.ipa
         retention-days: 30
 
